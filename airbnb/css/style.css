@@ -1,0 +1,315 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    list-style:none;
+}
+
+header{
+    background-image:url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:880px;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.nav__logo{
+    display: flex;
+    width: 50;
+    height: 80;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.nav__menu{
+    border-radius: 5px 5px 5px 5px ;
+    display: flex;
+    font-size: 10px;
+    height: 50px;
+    width: 300px;
+    color: white;
+    align-items: center;
+    padding-right: 20px;
+    justify-content: space-around;
+    align-content: center;
+}
+/* -------------맨위에칸---------- */
+
+.search-form{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    display: inline-block;
+    left: 100px;
+    top: 100px;
+    border-radius: 5px 5px 5px 5px ;
+    
+}
+.search-title{
+    display: flex;
+    height: 120px;
+    width: 280px;
+    padding-left: 25px;
+    padding-top: 25px;
+    
+    color: dimgray;
+}
+
+.search-list{
+    height: 20px;
+    width: 370px;
+    padding-left: 25px;
+    
+}
+li{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+li:nth-child(n+1){
+    font-size:smaller
+    
+}
+
+.checkin{
+    display: flex;
+    justify-content: space-between;
+
+}
+.years{ /*회색으로 표시하기위해*/
+    display: flex;
+    justify-content: space-between;
+    color: darkgrey;
+    border: 1px solid gray;
+    height: 35px;
+    align-items: center;
+}
+.twobox{ /*연도 첫번째 칸*/
+    border: 1px solid gray;
+    color: darkgrey;
+    height: 35px;
+    width: 100%;
+}
+.twobox2{ /*연도 두번째 칸*/
+    border: 1px solid gray;
+    color: darkgrey;
+    height: 35px;
+    width: 100%;
+}
+.years2{ /*연도칸을 뭉친거*/
+    display: flex;
+    height: 35px;
+    align-content: center;
+    
+}
+
+.butten{
+    height: 40px;
+    width: 60px;
+    background-color: pink;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px 5px 5px 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 290px;
+    margin-top: 20px;
+}
+.butten:hover{
+    background-color: gray;
+}
+.butten:active{
+    background-color: blue;
+}
+.butten2{
+    height: 40px;
+    width: 60px;
+    background-color: white
+    border-radius: 5px 5px 5px 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.butten2:hover{
+    background-color: gray;
+}
+.butten2:active{
+    background-color: blue;
+}
+
+
+/* 2번째칸----------------------------------------- */
+
+.main.big{
+    width: 100%;
+    height: 100%;
+    margin-right: 100px;
+    display: flex;
+}
+section{
+
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.l-title{
+
+    display: flex;
+    font-weight: bold;
+    font-size: larger;
+    color: gray;
+    justify-content: start;
+    
+}
+.first_p{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* ----------------------------------------- */
+.pc1{
+    display: flex;
+    
+}
+.pc2{
+    display: flex;
+
+}
+.pc3{
+    display: flex;
+
+}
+.pc4{
+    display: flex;
+
+}
+/* --------------------------------------- */
+
+.c1{
+    display: inline-flex;
+    border: 1px solid gray;
+    width: 150px;
+    border-radius: 0px 5px 5px 0px ;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: gray;
+    
+}
+.c2{
+    display: inline-flex;
+    border: 1px solid gray;
+    width: 150px;
+    border-radius: 0px 5px 5px 0px ;
+    justify-content: start;
+    align-items: center;
+    font-weight: bold;
+    color: gray;
+}
+.c3{
+    display: inline-flex;
+    border: 1px solid gray;
+    width: 150px;
+    border-radius: 0px 5px 5px 0px ;
+    justify-content: start;
+    align-items: center;
+    font-weight: bold;
+    color: gray;
+}
+.c4{
+    display: inline-flex;
+    border: 1px solid gray;
+    width: 150px;
+    border-radius: 0px 5px 5px 0px ;
+    justify-content: start;
+    align-items: center;
+    font-weight: bold;
+    color: gray;
+}
+.p1{
+    border: 1px solid gray;
+    border-radius: 5px 0px 0px 5px ;
+    justify-content: start;
+    align-items: center;
+    color: gray;
+    
+}
+.p2{
+    border: 1px solid gray;
+    border-radius: 5px 0px 0px 5px ;
+    margin-left: 30px;
+}
+.p3{
+    border: 1px solid gray;
+    border-radius: 5px 0px 0px 5px ;
+    margin-left: 30px;
+}
+.p4{
+    border: 1px solid gray;
+    border-radius: 5px 0px 0px 5px ;
+    margin-left: 30px;
+}
+
+.big_c{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-right: 100px;
+
+}
+.big_c_1{
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.big_c_2{
+    display: flex;
+    margin-top: -80px;
+    margin-bottom: 100px;
+
+    width: 79%;
+}
+
+
+/* ---------------------------------------세번째 */
+
+.sec_3{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+    flex-direction: column;
+}
+.sec_3_p{
+    display: flex;
+    justify-content: space-between;
+    width: 79%;
+    margin-top: 20px;
+}
+
+.s-title{
+    display: flex;
+    font-size: small;
+}
+
+.sec_4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 300px;
+}
